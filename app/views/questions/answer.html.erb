@@ -1,4 +1,15 @@
-<h2> Voici ta question au coach :</h2>
-<p><%= @question %></p>
-<h2>Voici sa réponse à ta question:</h2>
-<p><%= @response %></p>
+<h1>STUPID COACHING</h1>
+
+<div class="question">
+  <p><%= @question %></p>
+  <p>--You</p>
+</div>
+
+<div class="response">
+  <p id="coach-response"><%= @response %></p>
+  <p>-Your coach</p>
+</div>
+
+<div class="loop">
+  <%= link_to "Reposes une question au coach imbécile mais musclé", ask_path %>
+</div>

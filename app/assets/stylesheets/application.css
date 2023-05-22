@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+  color: green
+}
+
+ .input {
+  border: 2px solid gray;
+  border-radius: 3px;
+ }
+
+ .btn {
+  background-color: rgb(188, 188, 251);
+  border-radius: 3px;
+ }
+
+ .question {
+  border-left: 3px solid lightgray;
+  padding: 10px;
+  color: gray;
+  margin: 10px;
+ }
+
+ .response {
+  border-left: 3px solid lightgray;
+  padding: 10px;
+  color: gray;
+  margin: 10px;
+}
+
+ #coach-response {
+  font-weight: bold;
+  opacity: 0.8;
+  color: black;
+ }
+
+ .loop {
+  margin: 10px;
+
+ }
+
+ .loop a {
+  text-decoration: none;
+ }
